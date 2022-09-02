@@ -1,0 +1,11 @@
+#formAuto {
+    position: relative;
+}
+
+#textSearch {
+    position: absolute;
+    z-index: 10;
+    top: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+

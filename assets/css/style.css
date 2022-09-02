@@ -1,0 +1,57 @@
+#connect {
+    background-image: url("../img/bgConnect/Netflix-Background.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.472);
+    padding: 2rem;
+    width: 30%;
+    margin: auto;
+}
+
+.imgFilm{
+    width: 100%;
+}
+
+.cardsFrame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
+
+.card{
+    width: 18%;
+}
+
+.imgAccueil{
+    background-image: url("..//img/bgFilms/0002101.jpeg");
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination .active a,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    background-color: red;
+}
+
+
+
+

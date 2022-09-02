@@ -1,0 +1,15 @@
+.imgFilm{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.cardsFrame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
+
+.card{
+    width: 70%;
+}
